@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Consulta de Tallas de Ropa</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #eef2f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: #ffffff;
+      padding: 40px 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      max-width: 450px;
+      width: 100%;
+      text-align: center;
+    }
+    h2 {
+      color: #333;
+      margin-bottom: 20px;
+    }
+    input[type="text"], textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0 20px;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      outline: none;
+      transition: 0.3s;
+    }
+    input[type="text"]:focus, textarea:focus {
+      border-color: #4CAF50;
+      box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #4CAF50;
+      color: #fff;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #43a047;
+    }
+    .resultado {
+      text-align: left;
+      margin-top: 20px;
+      padding: 20px;
+      background-color: #f9fafb;
+      border: 1px solid #ddd;
+      border-radius: 8px;
+    }
+    .oculto {
+      display: none;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container">
+  <h2>Consulta de Tallas</h2>
+
+  <input type="text" id="dni" maxlength="15" placeholder="Ingrese su DNI" required>
+
+  <button onclick="buscarTallas()">Consultar Tallas</button>
+
+  <div id="resultado"></div>
+</div>
+
+<script>
+let baseDatos = [];
+
+fetch('trabajadores.json')
+  .then(response => response.json())
+  .then(data => {
+    baseDatos = data;
+  })
+  .catch(error => {
+    console.error('Error cargando trabajadores:', error);
+  });
+
+  function buscarTallas() {
+  const entrada = document.getElementById('dni').value.trim();
+  const resultadoDiv = document.getElementById('resultado');
+  const persona = baseDatos.find(p => String(p.dni).trim() === entrada);
+
+  const CONTRASENA = "Respuestas2025";
+
+  if (entrada === CONTRASENA) {
+    // Si escribe la contraseña correcta, redirigir a respuestas.html
+    window.location.href = 'respuestas.html';
+  } else if (persona) {
+    // Si es un DNI encontrado, mostrar tallas
+    resultadoDiv.innerHTML = `
+      <div class="resultado">
+        <h3>Tallas encontradas:</h3>
+        <p><strong>Botas:</strong> ${persona.botas}</p>
+        <p><strong>Polo:</strong> ${persona.polo}</p>
+        <p><strong>Pantalón:</strong> ${persona.pantalon}</p>
+
+        <label><input type="checkbox" id="desacuerdo" onchange="mostrarComentario()"> No estoy de acuerdo con mis tallas</label><br><br>
+
+        <textarea id="comentario" class="oculto" placeholder="Deja tu comentario aquí..."></textarea><br>
+
+        <button onclick="enviarFormulario()">Enviar Respuesta</button>
+      </div>
+    `;
+  } else {
+    // Ni DNI ni contraseña correcta
+    resultadoDiv.innerHTML = `<p style="color:red;">⚠️ DNI no encontrado o contraseña incorrecta.</p>`;
+  }
+}
+
+
+function mostrarComentario() {
+  const comentarioBox = document.getElementById('comentario');
+  const desacuerdo = document.getElementById('desacuerdo').checked;
+  comentarioBox.classList.toggle('oculto', !desacuerdo);
+  if (!desacuerdo) comentarioBox.value = "";
+}
+
+function enviarFormulario() {
+  const desacuerdo = document.getElementById('desacuerdo')?.checked || false;
+  const comentario = document.getElementById('comentario')?.value.trim() || '';
+  const dni = document.getElementById('dni').value.trim();
+
+  if (desacuerdo) {
+    fetch('http://localhost:3000/enviar', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ dni, desacuerdo, comentario }),
+    })
+    .then(response => response.json())
+    .then(data => {
+      alert(data.message || '¡Gracias! Tu respuesta ha sido registrada.');
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('Hubo un error de conexión.');
+    });
+  } else {
+    alert('No marcaste desacuerdo, no se envió información.');
+  }
+
+  document.getElementById('resultado').innerHTML = "";
+  document.getElementById('dni').value = "";
+}
+</script>
+
+</body>
+</html>

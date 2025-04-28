@@ -1,0 +1,1465 @@
+[
+  {
+    "dni":47205266,
+    "nombre":"TARRILLO EGOAVIL, ZADIT SOFIA",
+    "polo":"L",
+    "pantalon":34,
+    "botas":40
+  },
+  {
+    "dni":45242928,
+    "nombre":"RETAMOZO PIUCA, JOSE LUIS",
+    "polo":"L",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":42947533,
+    "nombre":"CASTILLO LOZADA, MILAGROS DEL ROSARIO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":38
+  },
+  {
+    "dni":42854763,
+    "nombre":"RUIZ ALFARO, PEDRO ALCIDES",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":74932545,
+    "nombre":"HUAMAN BONILLA, DIEGO ARTURO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":72032449,
+    "nombre":"OMONTE DE LA CRUZ,ELAR",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":72074778,
+    "nombre":"GRAUS ROSALES, DIEGO JOSUÉ",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":75924542,
+    "nombre":"PERALTA MUGGI PATRICK MARLON",
+    "polo":"L",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":76131125,
+    "nombre":"PONCE SILVA DENIS MANUEL",
+    "polo":"L",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":6045151,
+    "nombre":"PAREDES MUÑOZ  ELIANA",
+    "polo":"L",
+    "pantalon":34,
+    "botas":39
+  },
+  {
+    "dni":72178998,
+    "nombre":"LLERENA COLLAHUACHO, FAVIO EDU",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":48273397,
+    "nombre":"SULCA ARREA, ERICK FERNANDO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":47496181,
+    "nombre":"VARILLAS VASQUEZ YUDIT MEDALYD",
+    "polo":"L",
+    "pantalon":30,
+    "botas":36
+  },
+  {
+    "dni":21289007,
+    "nombre":"ALLPAS CERRON, WILFREDO PAUL",
+    "polo":"L",
+    "pantalon":34,
+    "botas":41
+  },
+  {
+    "dni":43332626,
+    "nombre":"PALMA VALERIO, ALEXANDER JOEL",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":72459549,
+    "nombre":"ALBERCA LANGA, EDSON ALEXANDER",
+    "polo":"L",
+    "pantalon":34,
+    "botas":44
+  },
+  {
+    "dni":10465717,
+    "nombre":"SOLORZANO TORRES JUAN RICARDO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":40
+  },
+  {
+    "dni":10659640,
+    "nombre":"VARGAS OROSCO, HUMBERTO ANTONIO",
+    "polo":"L",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":45380856,
+    "nombre":"CHINCHAY VIDAURRE, DANIEL GUSTAVO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":48099365,
+    "nombre":"LINARES GUILLEN ETZEL JHOJAN",
+    "polo":"L",
+    "pantalon":32,
+    "botas":43
+  },
+  {
+    "dni":41812220,
+    "nombre":"HUAMAN TINEO, ALEXANDER",
+    "polo":"L",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":41113049,
+    "nombre":"MEDINA DAZA, JULIO ENRIQUE",
+    "polo":"L",
+    "pantalon":"NO APLICA",
+    "botas":"NO APLICA"
+  },
+  {
+    "dni":43565256,
+    "nombre":"GUTIERREZ ROJAS, WILLIAM ALFREDO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":41
+  },
+  {
+    "dni":72889334,
+    "nombre":"LOPEZ MEJIA, ULISES ALEXANDER PAUL",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":41316044,
+    "nombre":"NEYRA ARANDA, JORGE LUIS",
+    "polo":"L",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":9845912,
+    "nombre":"SARMIENTO ZAMORA, HERNAN",
+    "polo":"L",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":42798801,
+    "nombre":"BLAS SANTA CRUZ, MIGUEL ANGEL",
+    "polo":"L",
+    "pantalon":32,
+    "botas":43
+  },
+  {
+    "dni":44126933,
+    "nombre":"HERNANDEZ SALVATIERRA, FELIX ALFREDO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":80651574,
+    "nombre":"BERROSPI SANCHEZ, EDWIN OMAR",
+    "polo":"L",
+    "pantalon":34,
+    "botas":40
+  },
+  {
+    "dni":45075950,
+    "nombre":"LEON ARIAS, FRANCKLIN MIGUEL",
+    "polo":"L",
+    "pantalon":34,
+    "botas":41
+  },
+  {
+    "dni":44780782,
+    "nombre":"MATIAS BERNACHEA, CESAR SAUL",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":44494359,
+    "nombre":"HUERTAS WAIDHOFER, RODRIGO ELEAZAR",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":9836077,
+    "nombre":"MENDIETA LOZA, JULIO EILMER",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":41470744,
+    "nombre":"LARA VILCAPOMA, GIOMAR YVES",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":10774103,
+    "nombre":"CHACCHI MATTOS, HECTOR HERMOGENES",
+    "polo":"L",
+    "pantalon":32,
+    "botas":43
+  },
+  {
+    "dni":43310962,
+    "nombre":"LOPEZ LEON, EDUARDO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":9360248,
+    "nombre":"CERVANTES ARCE, EDILBERTO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":43114076,
+    "nombre":"CASIMIR MANUELO, ALEX DARWIN",
+    "polo":"L",
+    "pantalon":36,
+    "botas":42
+  },
+  {
+    "dni":44161815,
+    "nombre":"HILARIO ESPEJO, REYNALDO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":42655367,
+    "nombre":"FLORES CASTRO, ALEX",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":10605224,
+    "nombre":"PUCHOC LEON, JOSE LUIS",
+    "polo":"L",
+    "pantalon":38,
+    "botas":42
+  },
+  {
+    "dni":9370626,
+    "nombre":"TOLENTINO MONTERREY, ROBERT CESAR",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":41820095,
+    "nombre":"ALLCCA LUNA, RONAL FELIX",
+    "polo":"L",
+    "pantalon":34,
+    "botas":41
+  },
+  {
+    "dni":10255908,
+    "nombre":"TENORIO PILLACA, HENRY ANDRES",
+    "polo":"L",
+    "pantalon":36,
+    "botas":43
+  },
+  {
+    "dni":10246191,
+    "nombre":"FLORES PAQUIYAURI, DAVID CARLOS",
+    "polo":"L",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":9367908,
+    "nombre":"CARRILLO AVILA, GERMAN ORLANDO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":4040872,
+    "nombre":"ARTEAGA GONZALES, JULIO",
+    "polo":"L",
+    "pantalon":36,
+    "botas":44
+  },
+  {
+    "dni":40207810,
+    "nombre":"JUAREZ NIMA, NEPTALI",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":9374851,
+    "nombre":"FLORES JANAMPA, JUAN",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":40969933,
+    "nombre":"ROQUE ARROYO, JUBERT ROLANDO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":10501814,
+    "nombre":"VELASQUEZ CARDENAS, DANTE SANTOS",
+    "polo":"L",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":9842388,
+    "nombre":"PAREJA GOMEZ, HILDER BERNARDO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":9838140,
+    "nombre":"LOA SALAZAR, JORGE CARLOS",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":10245141,
+    "nombre":"RAMOS PINTO, YAN CARLOS",
+    "polo":"L",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":9839054,
+    "nombre":"CHAHUILLCO SULCA, LUIS ALBERTO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":9839789,
+    "nombre":"CHUÑOCCA RODRIGUEZ, JULIO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":10874843,
+    "nombre":"VARGAS CISNEROS, JOSE MANUEL",
+    "polo":"L",
+    "pantalon":34,
+    "botas":44
+  },
+  {
+    "dni":9357227,
+    "nombre":"JIMENEZ ALBURQUEQUE, LUIS ALBERTO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":9066163,
+    "nombre":"ANGELES PAYANO, MISAEL SALOME",
+    "polo":"L",
+    "pantalon":34,
+    "botas":40
+  },
+  {
+    "dni":6579220,
+    "nombre":"SULLCA SULLCA, SABINO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":40
+  },
+  {
+    "dni":6583493,
+    "nombre":"CRUZ LOAYZA, CLAUDIO NEMESIO",
+    "polo":"L",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":9287486,
+    "nombre":"NUÑEZ CURI, WILLY ARMANDO",
+    "polo":"L",
+    "pantalon":32,
+    "botas":39
+  },
+  {
+    "dni":6577578,
+    "nombre":"FLORES ACUÑA, ALEJANDRO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":77677338,
+    "nombre":"LOPEZ BARRETO, JAMES ANTENOR",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":75697853,
+    "nombre":"CELESTINO MAYLLE, LIZARDO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":42
+  },
+  {
+    "dni":60382916,
+    "nombre":"CRUZ YUCRA, CARLOS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":73000488,
+    "nombre":"PONGO FONSECA, VICTOR",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":72869858,
+    "nombre":"CORDERO SILVA, VANESSA DE LOS MILAGROS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":37
+  },
+  {
+    "dni":42811882,
+    "nombre":"TRAVEZAÑO CARHUAZ, JUAN CARLOS",
+    "polo":"M",
+    "pantalon":34,
+    "botas":42
+  },
+  {
+    "dni":76590930,
+    "nombre":"VILLALOBOS ALONSO, JHEFRY XIAN",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":72299222,
+    "nombre":"MOGOLLON CABRERA, PATRICIA DE JESUS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":38
+  },
+  {
+    "dni":76616675,
+    "nombre":"CONTRERAS MATENCIO, BRYAN DAVID",
+    "polo":"M",
+    "pantalon":28,
+    "botas":41
+  },
+  {
+    "dni":72653273,
+    "nombre":"SIFUENTES FLORES, ALEXANDRA LUZ",
+    "polo":"M",
+    "pantalon":30,
+    "botas":37
+  },
+  {
+    "dni":41352408,
+    "nombre":"VARGAS QUINTO, CHRISTIAN JOEL",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":75409267,
+    "nombre":"HUAMANI ESCALANTE, DANIELA LISETH",
+    "polo":"M",
+    "pantalon":32,
+    "botas":38
+  },
+  {
+    "dni":76760393,
+    "nombre":"CAMARENA MESTANZA, XIOMARA DAYAN",
+    "polo":"M",
+    "pantalon":26,
+    "botas":37
+  },
+  {
+    "dni":46453353,
+    "nombre":"PALOMINO GUILLEN, EDISSON RICHARD",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":74722711,
+    "nombre":"MALUQUIS CENTENO, LUZ GIANINA",
+    "polo":"M",
+    "pantalon":30,
+    "botas":37
+  },
+  {
+    "dni":73340057,
+    "nombre":"AURIS APARCO, SAUL LEONCIO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":72200954,
+    "nombre":"FLORES HUAMÁN, CARLOS DAVID",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":47628857,
+    "nombre":"AYCHASI NAUPARI, RENATO MIGUEL",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":72407739,
+    "nombre":"MORAN ROCHA, ANTHONY",
+    "polo":"M",
+    "pantalon":28,
+    "botas":41
+  },
+  {
+    "dni":47099484,
+    "nombre":"CANTO BENITES, SITMARY EVELIN",
+    "polo":"M",
+    "pantalon":30,
+    "botas":35
+  },
+  {
+    "dni":75518979,
+    "nombre":"CHUMBIPUMA GARCIA JUAN MIGUEL",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":46534344,
+    "nombre":"ZAMORA SANTACRUZ, HEINER",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":72957745,
+    "nombre":"PIELAGO ANTAY, JOEL",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":70171932,
+    "nombre":"ZAPANA HUAMAN, JULIAN ALFREDO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":74911647,
+    "nombre":"VILA TORREJÓN, FRANKLIN GERSON",
+    "polo":"M",
+    "pantalon":30,
+    "botas":39
+  },
+  {
+    "dni":71921336,
+    "nombre":"ELESCANO HIDALGO, RICARDO ANTONIO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":42
+  },
+  {
+    "dni":47582990,
+    "nombre":"ZUÑIGA DE LA SOTA, BENNY OMAR",
+    "polo":"M",
+    "pantalon":28,
+    "botas":41
+  },
+  {
+    "dni":44850856,
+    "nombre":"HUACACHI BAUTISTA RENZO LUIS",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":45821533,
+    "nombre":"SOTO AGREDA ANGEL DANIEL",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":43579633,
+    "nombre":"GOMEZ MARTINEZ, ARNOLFO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":71537968,
+    "nombre":"FLORES MENDOZA, JOSE LUIS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":72191438,
+    "nombre":"MORALES SANTILLAN, LUIS MIGUEL",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":10749982,
+    "nombre":"AGUIRRE MOSQUERA, SERGIO ANTONIO",
+    "polo":"M",
+    "pantalon":"NO APLICA",
+    "botas":"NO APLICA"
+  },
+  {
+    "dni":70480316,
+    "nombre":"AVILA SANDOVAL, CRISTHOFER FRANK",
+    "polo":"M",
+    "pantalon":28,
+    "botas":42
+  },
+  {
+    "dni":45349768,
+    "nombre":"LA TORRE GARCIA, LOURDES PAMELA HILDA",
+    "polo":"M",
+    "pantalon":30,
+    "botas":39
+  },
+  {
+    "dni":41682568,
+    "nombre":"CASAVERDE GUILLEN, RICARDO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":46704638,
+    "nombre":"NOLASCO SAMAN, MABELL",
+    "polo":"M",
+    "pantalon":28,
+    "botas":37
+  },
+  {
+    "dni":45733050,
+    "nombre":"CRISOSTOMO SEGURA, FREDY RAUL",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":10192347,
+    "nombre":"CHACHI ALANIA, JUAN CARLOS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":42364686,
+    "nombre":"GUEVARA TORRES, DENIS MANUEL",
+    "polo":"M",
+    "pantalon":28,
+    "botas":41
+  },
+  {
+    "dni":46951912,
+    "nombre":"HILARIO REJANO, GUSTAVO MIGUEL",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":42373837,
+    "nombre":"IZARRA RAMIREZ, VANESSA GIULIANA",
+    "polo":"M",
+    "pantalon":30,
+    "botas":38
+  },
+  {
+    "dni":45947477,
+    "nombre":"AGUILAR SEGURA, FIORELLA LIZETTE",
+    "polo":"M",
+    "pantalon":28,
+    "botas":36
+  },
+  {
+    "dni":40811645,
+    "nombre":"MONTES LAZO, GILBERTO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":48118997,
+    "nombre":"TAMANI SINARAHUA, ISAAC",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":40621213,
+    "nombre":"INGUNZA REYES, GERARDO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":42722117,
+    "nombre":"MORALES TRUJILLO, JONATHAN EFRAIN",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":45432243,
+    "nombre":"LUNASCO MENDOZA, JORGE EDUARDO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":47079401,
+    "nombre":"FERREYRA CUMAPA, PERCY PASTOR",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":40879371,
+    "nombre":"SANCHEZ PACHAS, JULIO ALBERTO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":44
+  },
+  {
+    "dni":10606329,
+    "nombre":"QUESADA CURO, WILLY ALEJANDRO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":46704071,
+    "nombre":"CCENCHO PARI LUIS ALBERTO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":46089185,
+    "nombre":"ESPINOZA ROJAS, SADI HEBER",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":43067942,
+    "nombre":"SARMIENTO CORTEZ, CARLOS MAURICIO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":45482270,
+    "nombre":"CONDE MICUYLLA, ELISEO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":40409467,
+    "nombre":"TITO MAMANI, MARTIN ROLANDO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":22675474,
+    "nombre":"TRUJILLO RETIS, ELADIO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":39
+  },
+  {
+    "dni":42717123,
+    "nombre":"POMASONCCO PALOMINO, OMAR",
+    "polo":"M",
+    "pantalon":30,
+    "botas":42
+  },
+  {
+    "dni":40620841,
+    "nombre":"HUARCAYA CASTAÑEDA, JHON WILMER",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":43141504,
+    "nombre":"ANCHAYHUA PABLO, LUIS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":45492740,
+    "nombre":"FUNDES LUDEÑA, CARLOS MARTIN",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":43047647,
+    "nombre":"DAVILA HUAMAN, LISANDRO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":40832971,
+    "nombre":"AYALA ORE, FREDDY",
+    "polo":"M",
+    "pantalon":30,
+    "botas":42
+  },
+  {
+    "dni":7198672,
+    "nombre":"AHUMADA NEGRON, IVAN AUGUSTO",
+    "polo":"M",
+    "pantalon":"NO APLICA",
+    "botas":40
+  },
+  {
+    "dni":42884397,
+    "nombre":"HERNANDEZ DE LA CRUZ, MIGUEL ANGEL",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":45042540,
+    "nombre":"QUEZADA HERVAS, ANDRES SEGUNDO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":42660540,
+    "nombre":"PEÑA MENDOZA, MANUEL JESUS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":39
+  },
+  {
+    "dni":41374336,
+    "nombre":"QUISPE SANCHEZ, FRANCO EDUARDO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":42091370,
+    "nombre":"SANCHEZ INOÑAN, MARCO ANTONIO",
+    "polo":"M",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":9362029,
+    "nombre":"SALAZAR DELGADO, DAVID ERNESTO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":6577849,
+    "nombre":"HILARIO VASQUEZ, HERMINIO NICANOR",
+    "polo":"M",
+    "pantalon":32,
+    "botas":39
+  },
+  {
+    "dni":42792873,
+    "nombre":"OCMIN ESPINOZA, GILBERTO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":42
+  },
+  {
+    "dni":42067954,
+    "nombre":"MENDOZA DE LA CRUZ, LUZ MIRYAM",
+    "polo":"M",
+    "pantalon":"NO APLICA",
+    "botas":"NO APLICA"
+  },
+  {
+    "dni":42719961,
+    "nombre":"PARCO CHAVEZ, GUSTAVO TEOFILO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":41845500,
+    "nombre":"MENDOZA CASIAS, LUIS ALBERTO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":10249146,
+    "nombre":"CORTEZ LA ROSA, CARLOS MANUEL",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":42185133,
+    "nombre":"DOMINGUEZ QUISPE, LUIS ALBERTO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":10555123,
+    "nombre":"CANCHARI LEON, WILTON CARLOS",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":43499051,
+    "nombre":"CABEZAS TORIBIO, JORGE JOHNNY",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":9842993,
+    "nombre":"GONZALES AGUILAR, JOHNNY MARCELINO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":42
+  },
+  {
+    "dni":10254787,
+    "nombre":"ILLANES MENDOZA, WILFREDO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":10244608,
+    "nombre":"SANDOVAL CASAS, ELIAS GERARDO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":10600554,
+    "nombre":"MENDOZA MENDOZA, HENRY",
+    "polo":"M",
+    "pantalon":30,
+    "botas":43
+  },
+  {
+    "dni":9849141,
+    "nombre":"PORTOCARRERO CUNYARACHE, PEDRO ANTONIO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":9259516,
+    "nombre":"SALAZAR VIVANCO, FELIX",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":9787411,
+    "nombre":"SANCHEZ ESTRADA, FLORENCIO ARTURO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":20018118,
+    "nombre":"MENDOZA CORILLOCLLA, SANDRO IVAN",
+    "polo":"M",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":10251592,
+    "nombre":"CHAVEZ URBANO, PERCY",
+    "polo":"M",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":9367228,
+    "nombre":"LAURA CABRERA, ZOCIMO JESUS",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":82981,
+    "nombre":"TAPULLIMA BARDALES, FELIPE BERNABE",
+    "polo":"M",
+    "pantalon":32,
+    "botas":39
+  },
+  {
+    "dni":9059121,
+    "nombre":"TINEO ORDAYA, DIONISIO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":40346653,
+    "nombre":"PARODI GUTIERREZ, ERICK HUGO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":6577768,
+    "nombre":"SULLCA SULLCA, MAXIMO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":40
+  },
+  {
+    "dni":7683094,
+    "nombre":"GUTIERREZ VILCAPOMA, ALFONSO",
+    "polo":"M",
+    "pantalon":34,
+    "botas":41
+  },
+  {
+    "dni":7477650,
+    "nombre":"ORCSO MANDAMIENTO, ADRIAN",
+    "polo":"M",
+    "pantalon":30,
+    "botas":39
+  },
+  {
+    "dni":9358096,
+    "nombre":"CRUZ LOAYZA, EMILIANO BRAULIO",
+    "polo":"M",
+    "pantalon":32,
+    "botas":41
+  },
+  {
+    "dni":6548557,
+    "nombre":"VERA HERNANDEZ, ALEJANDRO MARTIN",
+    "polo":"M",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":9058866,
+    "nombre":"VILCAHUAMAN ESPINOZA, PEDRO PRECILIANO",
+    "polo":"M",
+    "pantalon":30,
+    "botas":39
+  },
+  {
+    "dni":6574019,
+    "nombre":"CHAVEZ SIFUENTES, MIGUEL FRANCISCO",
+    "polo":"M",
+    "pantalon":34,
+    "botas":40
+  },
+  {
+    "dni":76536662,
+    "nombre":"ASCUE CABALLERO, MELANIE ALISSON",
+    "polo":"S",
+    "pantalon":28,
+    "botas":37
+  },
+  {
+    "dni":72853035,
+    "nombre":"GASPAR CAYETANO, GHILMAR JAMIL",
+    "polo":"S",
+    "pantalon":30,
+    "botas":39
+  },
+  {
+    "dni":47011632,
+    "nombre":"SÁNCHEZ ROJAS, ANDREA IVONNE",
+    "polo":"S",
+    "pantalon":28,
+    "botas":37
+  },
+  {
+    "dni":60548981,
+    "nombre":"DE LA CRUZ VALENCIA, ALONDRA OFELIA",
+    "polo":"S",
+    "pantalon":28,
+    "botas":37
+  },
+  {
+    "dni":75150228,
+    "nombre":"GOMEZ\t ECHACCAYA, MARISABEL",
+    "polo":"S",
+    "pantalon":30,
+    "botas":38
+  },
+  {
+    "dni":77483988,
+    "nombre":"CHAMPI CURITUMAY, VANESSA",
+    "polo":"S",
+    "pantalon":28,
+    "botas":37
+  },
+  {
+    "dni":73340084,
+    "nombre":"SALVADOR HINOSTROZA, ANEL PILAR",
+    "polo":"S",
+    "pantalon":28,
+    "botas":36
+  },
+  {
+    "dni":44799380,
+    "nombre":"BAZAN SOLANO JENIFER PAOLA",
+    "polo":"S",
+    "pantalon":26,
+    "botas":36
+  },
+  {
+    "dni":47134293,
+    "nombre":"ORTIZ ADRIANO, JEAN PIERRE",
+    "polo":"S",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":72073457,
+    "nombre":"VILCHEZ CHAVEZ MARIA ELENA",
+    "polo":"S",
+    "pantalon":30,
+    "botas":37
+  },
+  {
+    "dni":72671711,
+    "nombre":"VALLADARES RUJEL JOHN",
+    "polo":"S",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":70237397,
+    "nombre":"TERRAZAS COSIO, DANNIA",
+    "polo":"S",
+    "pantalon":26,
+    "botas":37
+  },
+  {
+    "dni":46635588,
+    "nombre":"MARTINEZ SANCARRANCO, MILAGROS JUDITH",
+    "polo":"S",
+    "pantalon":28,
+    "botas":36
+  },
+  {
+    "dni":45476424,
+    "nombre":"VALDEZ ESPINO, KRYSTEL CECILIA",
+    "polo":"S",
+    "pantalon":26,
+    "botas":36
+  },
+  {
+    "dni":43309598,
+    "nombre":"PALOMINO BENDEZU, RODRIGO",
+    "polo":"S",
+    "pantalon":28,
+    "botas":39
+  },
+  {
+    "dni":43586827,
+    "nombre":"PEREZ GUINEA, LUIS MARIO",
+    "polo":"S",
+    "pantalon":30,
+    "botas":41
+  },
+  {
+    "dni":44237099,
+    "nombre":"HUANCA MAMANI, FREDY",
+    "polo":"S",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":70891296,
+    "nombre":"BONIFACIO ROSALES, HEMER MEISEL",
+    "polo":"S",
+    "pantalon":28,
+    "botas":42
+  },
+  {
+    "dni":43892642,
+    "nombre":"HUAMAN CRUZ, CARLOS FREDDY",
+    "polo":"S",
+    "pantalon":28,
+    "botas":39
+  },
+  {
+    "dni":44574329,
+    "nombre":"FERNANDEZ BUSTAMANTE, GEREMIAS DONAYRE",
+    "polo":"S",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":45416632,
+    "nombre":"CANARIO VILCHEZ, WALTER EDUARDO",
+    "polo":"S",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":40141082,
+    "nombre":"PRETEL CAPILLO, RICHARD",
+    "polo":"S",
+    "pantalon":28,
+    "botas":39
+  },
+  {
+    "dni":42179328,
+    "nombre":"ZUMAETA HUAMAN, GEISON",
+    "polo":"S",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":10606806,
+    "nombre":"BARZOLA BAUTISTA, HECTOR JOSE",
+    "polo":"S",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":9843313,
+    "nombre":"CASTILLO VARGAS, JAIME VICTOR",
+    "polo":"S",
+    "pantalon":28,
+    "botas":39
+  },
+  {
+    "dni":80335199,
+    "nombre":"COSSIO GARCIA, JUNIOR",
+    "polo":"S",
+    "pantalon":28,
+    "botas":40
+  },
+  {
+    "dni":6554563,
+    "nombre":"VALERIO HUANQUI, JOSE LUIS",
+    "polo":"S",
+    "pantalon":30,
+    "botas":40
+  },
+  {
+    "dni":73051119,
+    "nombre":"REGALADO CALDERÓN, JESÚS BELISARIO",
+    "polo":"XL",
+    "pantalon":36,
+    "botas":43
+  },
+  {
+    "dni":70111100,
+    "nombre":"VIVANCO SILVESTRE, ALDAIR ISAAC",
+    "polo":"XL",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":44758432,
+    "nombre":"TUPEZ MENDOZA, JHON ROGGER",
+    "polo":"XL",
+    "pantalon":32,
+    "botas":44
+  },
+  {
+    "dni":70572712,
+    "nombre":"RAMIREZ VERA, ADRIAN",
+    "polo":"XL",
+    "pantalon":32,
+    "botas":42
+  },
+  {
+    "dni":42515197,
+    "nombre":"MARTINEZ GONZALES WILLIAMS FRANK",
+    "polo":"XL",
+    "pantalon":36,
+    "botas":42
+  },
+  {
+    "dni":75404012,
+    "nombre":"SAENZ SAAVEDRA  CHRISTIAN ANIBAL",
+    "polo":"XL",
+    "pantalon":36,
+    "botas":42
+  },
+  {
+    "dni":41827527,
+    "nombre":"GUIZADO VELASQUE, EDGAR HECTOR",
+    "polo":"XL",
+    "pantalon":36,
+    "botas":42
+  },
+  {
+    "dni":40491514,
+    "nombre":"OSCO GARRIDO, CARLOS ROGER",
+    "polo":"XL",
+    "pantalon":36,
+    "botas":45
+  },
+  {
+    "dni":41036299,
+    "nombre":"CHOÑOCCA RISCO, FORTUNATO JOSE",
+    "polo":"XL",
+    "pantalon":34,
+    "botas":43
+  },
+  {
+    "dni":6575672,
+    "nombre":"QUIÑONEZ MARCOS, HILDEJARDO VALENTIN",
+    "polo":"XL",
+    "pantalon":34,
+    "botas":40
+  },
+  {
+    "dni":9813431,
+    "nombre":"ROBLES PICCARDO, SAMUEL",
+    "polo":"XL",
+    "pantalon":34,
+    "botas":44
+  },
+  {
+    "dni":9838466,
+    "nombre":"HERRERA CONCHA, JESUS LEONEL",
+    "polo":"XL",
+    "pantalon":36,
+    "botas":41
+  },
+  {
+    "dni":10875960,
+    "nombre":"RIMACHI AGUILAR, PEDRO PABLO",
+    "polo":"XL",
+    "pantalon":38,
+    "botas":44
+  },
+  {
+    "dni":9840633,
+    "nombre":"LOZA TRELLES, ROBERTO JAVIER",
+    "polo":"XL",
+    "pantalon":36,
+    "botas":43
+  },
+  {
+    "dni":46347644,
+    "nombre":"AHUANARI WAM, FREDY",
+    "polo":"XS",
+    "pantalon":26,
+    "botas":38
+  },
+  {
+    "dni":77467811,
+    "nombre":"ROJAS RAMOS, GERALDINE DAYANA",
+    "polo":"XXL",
+    "pantalon":32,
+    "botas":37
+  },
+  {
+    "dni":42104326,
+    "nombre":"BALLARDO DE LA CRUZ, JAVIER ARTURO",
+    "polo":"XXL",
+    "pantalon":42,
+    "botas":46
+  },
+  {
+    "dni":40328724,
+    "nombre":"MALPARTIDA ARROYO, HENRY DANIEL",
+    "polo":"XXL",
+    "pantalon":36,
+    "botas":42
+  },
+  {
+    "dni":41411839,
+    "nombre":"RUIZ RIOS, DANTE MITCHEL",
+    "polo":"XXL",
+    "pantalon":38,
+    "botas":42
+  },
+  {
+    "dni":40201410,
+    "nombre":"PILLPI VALLEJOS, MIGUEL PIO",
+    "polo":"XXXL",
+    "pantalon":40,
+    "botas":42
+  }
+]

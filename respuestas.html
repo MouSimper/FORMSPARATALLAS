@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Respuestas Registradas</title>
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script> <!-- Cargar librería para crear Excel -->
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      background-color: #eef2f7;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+    }
+    .container {
+      background: #ffffff;
+      padding: 30px;
+      border-radius: 12px;
+      box-shadow: 0 8px 24px rgba(0,0,0,0.1);
+      width: 90%;
+      max-width: 900px;
+      text-align: center;
+    }
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+    }
+    button {
+      width: 45%;
+      margin: 5px;
+      padding: 12px;
+      background-color: #4CAF50;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background-color: #43a047;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 20px;
+      font-size: 14px;
+    }
+    th, td {
+      border: 1px solid #ddd;
+      padding: 10px;
+      text-align: center;
+    }
+    th {
+      background-color: #f4f6f8;
+      font-weight: bold;
+    }
+  </style>
+</head>
+<body>
+
+<div class="container" id="respuestasContainer">
+  <h2>Respuestas Registradas</h2>
+
+  <div style="margin-bottom: 20px;">
+    <button onclick="descargarExcel()">Descargar Excel</button>
+    <button onclick="volverInicio()">Volver al Inicio</button>
+  </div>
+
+  <table id="tablaRespuestas">
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>DNI</th>
+        <th>Desacuerdo</th>
+        <th>Comentario</th>
+      </tr>
+    </thead>
+    <tbody></tbody>
+  </table>
+</div>
+
+<script>
+// Cargar las respuestas cuando abre la página
+function cargarRespuestas() {
+  fetch('/respuestas')
+    .then(response => response.json())
+    .then(respuestas => {
+      const tbody = document.getElementById('tablaRespuestas').querySelector('tbody');
+      tbody.innerHTML = "";
+      respuestas.forEach(r => {
+        const fila = `
+          <tr>
+            <td>${r.timestamp.split('T')[0]}</td>
+            <td>${r.dni}</td>
+            <td>${r.desacuerdo}</td>
+            <td>${r.comentario}</td>
+          </tr>
+        `;
+        tbody.innerHTML += fila;
+      });
+    })
+    .catch(error => {
+      console.error('Error cargando respuestas:', error);
+      alert('Error al cargar las respuestas.');
+    });
+}
+
+// Descargar la tabla como Excel
+function descargarExcel() {
+  const tabla = document.getElementById('tablaRespuestas');
+  const wb = XLSX.utils.table_to_book(tabla, { sheet: "Respuestas" });
+  XLSX.writeFile(wb, "respuestas.xlsx");
+}
+
+// Volver al formulario de inicio
+function volverInicio() {
+  window.location.href = 'index.html';
+}
+
+// Ejecutar cargar respuestas al abrir
+window.onload = cargarRespuestas;
+</script>
+
+</body>
+</html>
