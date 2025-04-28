@@ -89,7 +89,7 @@
   <div class="formulario">
     <h2>Consulta de Tallas</h2>
 
-    <input type="text" id="dni" maxlength="8" placeholder="Ingrese su DNI o Contraseña" required>
+    <input type="text" id="dni" maxlength="15" placeholder="Ingrese su DNI" required>
 
     <button onclick="buscarTallas()">Buscar Tallas</button>
 
@@ -133,7 +133,7 @@ function buscarTallas() {
         <label><input type="radio" name="opcion" value="correcto" onclick="mostrarComentario(false)"> Mis tallas son correctas</label><br>
         <label><input type="radio" name="opcion" value="actualizar" onclick="mostrarComentario(true)"> Quiero actualizar mis tallas</label><br><br>
 
-        <textarea id="comentario" class="oculto" placeholder="Escriba las tallas correctas aquí..."></textarea><br>
+        <textarea id="comentario" class="oculto" placeholder="Ingresa la talla actualizada de tus botas, polo y/o pantalón... "></textarea><br>
 
         <button onclick="enviarFormulario()">Enviar Respuesta</button>
       </div>
