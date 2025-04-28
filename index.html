@@ -15,12 +15,28 @@
     }
     .container {
       background: #ffffff;
-      padding: 40px 30px;
+      padding: 30px;
       border-radius: 12px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.1);
-      max-width: 450px;
-      width: 100%;
-      text-align: center;
+      width: 90%;
+      max-width: 900px;
+      display: flex;
+      align-items: flex-start;
+      gap: 20px;
+    }
+    .formulario {
+      flex: 2;
+    }
+    .logo {
+      flex: 1;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+    .logo img {
+      max-width: 120px;
+      height: auto;
+      border-radius: 8px;
     }
     h2 {
       color: #333;
@@ -43,12 +59,13 @@
       width: 100%;
       padding: 12px;
       background-color: #4CAF50;
-      color: #fff;
+      color: white;
       font-size: 16px;
       border: none;
       border-radius: 8px;
       cursor: pointer;
       transition: 0.3s;
+      margin-top: 10px;
     }
     button:hover {
       background-color: #43a047;
@@ -69,19 +86,25 @@
 <body>
 
 <div class="container">
-  <h2>Consulta de Tallas</h2>
+  <div class="formulario">
+    <h2>Consulta de Tallas</h2>
 
-  <input type="text" id="dni" maxlength="15" placeholder="Ingrese su DNI" required>
+    <input type="text" id="dni" maxlength="8" placeholder="Ingrese su DNI o Contraseña" required>
 
-  <button onclick="buscarTallas()">Consultar Tallas</button>
+    <button onclick="buscarTallas()">Buscar Tallas</button>
 
-  <div id="resultado"></div>
+    <div id="resultado"></div>
+  </div>
+
+  <div class="logo">
+    <img src="ingredion.png" alt="Logo Empresa">
+  </div>
 </div>
 
 <script>
 let baseDatos = [];
 
-fetch('trabajadores.json')
+fetch('https://formsparatallas.onrender.com/trabajadores.json')
   .then(response => response.json())
   .then(data => {
     baseDatos = data;
@@ -90,7 +113,7 @@ fetch('trabajadores.json')
     console.error('Error cargando trabajadores:', error);
   });
 
-  function buscarTallas() {
+function buscarTallas() {
   const entrada = document.getElementById('dni').value.trim();
   const resultadoDiv = document.getElementById('resultado');
   const persona = baseDatos.find(p => String(p.dni).trim() === entrada);
@@ -98,10 +121,8 @@ fetch('trabajadores.json')
   const CONTRASENA = "Respuestas2025";
 
   if (entrada === CONTRASENA) {
-    // Si escribe la contraseña correcta, redirigir a respuestas.html
     window.location.href = 'respuestas.html';
   } else if (persona) {
-    // Si es un DNI encontrado, mostrar tallas
     resultadoDiv.innerHTML = `
       <div class="resultado">
         <h3>Tallas encontradas:</h3>
@@ -109,49 +130,58 @@ fetch('trabajadores.json')
         <p><strong>Polo:</strong> ${persona.polo}</p>
         <p><strong>Pantalón:</strong> ${persona.pantalon}</p>
 
-        <label><input type="checkbox" id="desacuerdo" onchange="mostrarComentario()"> No estoy de acuerdo con mis tallas</label><br><br>
+        <label><input type="radio" name="opcion" value="correcto" onclick="mostrarComentario(false)"> Mis tallas son correctas</label><br>
+        <label><input type="radio" name="opcion" value="actualizar" onclick="mostrarComentario(true)"> Quiero actualizar mis tallas</label><br><br>
 
-        <textarea id="comentario" class="oculto" placeholder="Deja tu comentario aquí..."></textarea><br>
+        <textarea id="comentario" class="oculto" placeholder="Escriba las tallas correctas aquí..."></textarea><br>
 
         <button onclick="enviarFormulario()">Enviar Respuesta</button>
       </div>
     `;
   } else {
-    // Ni DNI ni contraseña correcta
     resultadoDiv.innerHTML = `<p style="color:red;">⚠️ DNI no encontrado o contraseña incorrecta.</p>`;
   }
 }
 
-
-function mostrarComentario() {
+function mostrarComentario(mostrar) {
   const comentarioBox = document.getElementById('comentario');
-  const desacuerdo = document.getElementById('desacuerdo').checked;
-  comentarioBox.classList.toggle('oculto', !desacuerdo);
-  if (!desacuerdo) comentarioBox.value = "";
+  if (mostrar) {
+    comentarioBox.classList.remove('oculto');
+  } else {
+    comentarioBox.classList.add('oculto');
+    comentarioBox.value = "";
+  }
 }
 
 function enviarFormulario() {
-  const desacuerdo = document.getElementById('desacuerdo')?.checked || false;
-  const comentario = document.getElementById('comentario')?.value.trim() || '';
   const dni = document.getElementById('dni').value.trim();
+  const opcion = document.querySelector('input[name="opcion"]:checked')?.value;
+  const comentario = document.getElementById('comentario')?.value.trim() || '';
 
-  if (desacuerdo) {
-    fetch('http://localhost:3000/enviar', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ dni, desacuerdo, comentario }),
-    })
-    .then(response => response.json())
-    .then(data => {
-      alert(data.message || '¡Gracias! Tu respuesta ha sido registrada.');
-    })
-    .catch(error => {
-      console.error('Error:', error);
-      alert('Hubo un error de conexión.');
-    });
-  } else {
-    alert('No marcaste desacuerdo, no se envió información.');
+  if (!opcion) {
+    alert('Por favor seleccione una opción.');
+    return;
   }
+
+  fetch('https://formsparatallas.onrender.com/enviar', {
+    method: 'POST',
+    headers: {
+      'Content-Type': 'application/json',
+    },
+    body: JSON.stringify({
+      dni: dni,
+      opcion: opcion,
+      comentario: comentario
+    }),
+  })
+  .then(response => response.json())
+  .then(data => {
+    alert(data.message || '¡Gracias! Tu respuesta ha sido registrada.');
+  })
+  .catch(error => {
+    console.error('Error:', error);
+    alert('Hubo un error de conexión.');
+  });
 
   document.getElementById('resultado').innerHTML = "";
   document.getElementById('dni').value = "";

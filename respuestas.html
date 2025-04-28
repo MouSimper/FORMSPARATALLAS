@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>Respuestas Registradas</title>
-  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script> <!-- Cargar librería para crear Excel -->
+  <script src="https://cdn.sheetjs.com/xlsx-0.20.0/package/dist/xlsx.full.min.js"></script> <!-- Librería para exportar Excel -->
   <style>
     body {
       font-family: 'Poppins', sans-serif;
@@ -20,8 +20,9 @@
       border-radius: 12px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.1);
       width: 90%;
-      max-width: 900px;
+      max-width: 1000px;
       text-align: center;
+      position: relative;
     }
     h2 {
       margin-bottom: 20px;
@@ -57,11 +58,25 @@
       background-color: #f4f6f8;
       font-weight: bold;
     }
+    .logo {
+      position: absolute;
+      top: 20px;
+      right: 30px;
+    }
+    .logo img {
+      max-width: 100px;
+      height: auto;
+      border-radius: 8px;
+    }
   </style>
 </head>
 <body>
 
 <div class="container" id="respuestasContainer">
+  <div class="logo">
+    <img src="ingredion.png" alt="Logo Empresa">
+  </div>
+
   <h2>Respuestas Registradas</h2>
 
   <div style="margin-bottom: 20px;">
@@ -74,7 +89,8 @@
       <tr>
         <th>Fecha</th>
         <th>DNI</th>
-        <th>Desacuerdo</th>
+        <th>Nombre</th>
+        <th>Opción Elegida</th>
         <th>Comentario</th>
       </tr>
     </thead>
@@ -83,9 +99,9 @@
 </div>
 
 <script>
-// Cargar las respuestas cuando abre la página
+// Cargar las respuestas al abrir
 function cargarRespuestas() {
-  fetch('/respuestas')
+  fetch('https://formsparatallas.onrender.com/respuestas')
     .then(response => response.json())
     .then(respuestas => {
       const tbody = document.getElementById('tablaRespuestas').querySelector('tbody');
@@ -95,8 +111,9 @@ function cargarRespuestas() {
           <tr>
             <td>${r.timestamp.split('T')[0]}</td>
             <td>${r.dni}</td>
-            <td>${r.desacuerdo}</td>
-            <td>${r.comentario}</td>
+            <td>${r.nombre || '-'}</td>
+            <td>${r.opcion === 'actualizar' ? 'Actualizar tallas' : 'Tallas correctas'}</td>
+            <td>${r.comentario || '-'}</td>
           </tr>
         `;
         tbody.innerHTML += fila;
@@ -120,7 +137,7 @@ function volverInicio() {
   window.location.href = 'index.html';
 }
 
-// Ejecutar cargar respuestas al abrir
+// Ejecutar al cargar
 window.onload = cargarRespuestas;
 </script>
 
