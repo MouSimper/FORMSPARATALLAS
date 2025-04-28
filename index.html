@@ -103,6 +103,7 @@
 
 <script>
 let baseDatos = [];
+let nombreTrabajador = ""; // <- Aquí guardaremos el nombre encontrado
 
 fetch('https://formsparatallas.onrender.com/trabajadores.json')
   .then(response => response.json())
@@ -123,6 +124,8 @@ function buscarTallas() {
   if (entrada === CONTRASENA) {
     window.location.href = 'respuestas.html';
   } else if (persona) {
+    nombreTrabajador = persona.nombre; // <- Guardamos el nombre aquí
+
     resultadoDiv.innerHTML = `
       <div class="resultado">
         <h3>Tallas encontradas:</h3>
@@ -170,6 +173,7 @@ function enviarFormulario() {
     },
     body: JSON.stringify({
       dni: dni,
+      nombre: nombreTrabajador, // <- Ahora también enviamos el nombre
       opcion: opcion,
       comentario: comentario
     }),

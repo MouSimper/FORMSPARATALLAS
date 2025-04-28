@@ -20,7 +20,7 @@
       border-radius: 12px;
       box-shadow: 0 8px 24px rgba(0,0,0,0.1);
       width: 90%;
-      max-width: 1000px;
+      max-width: 1100px;
       text-align: center;
       position: relative;
     }
@@ -74,6 +74,7 @@
 
 <div class="container" id="respuestasContainer">
   <div class="logo">
+    <!-- Aquí pones tu logo -->
     <img src="ingredion.png" alt="Logo Empresa">
   </div>
 
@@ -99,9 +100,8 @@
 </div>
 
 <script>
-// Cargar las respuestas al abrir
 function cargarRespuestas() {
-  fetch('https://formsparatallas.onrender.com/respuestas')
+  fetch('https://formsparatallas.onrender.com/respuestas') // <-- Tu URL de Render aquí
     .then(response => response.json())
     .then(respuestas => {
       const tbody = document.getElementById('tablaRespuestas').querySelector('tbody');
@@ -109,8 +109,8 @@ function cargarRespuestas() {
       respuestas.forEach(r => {
         const fila = `
           <tr>
-            <td>${r.timestamp.split('T')[0]}</td>
-            <td>${r.dni}</td>
+            <td>${r.timestamp ? r.timestamp.split('T')[0] : '-'}</td>
+            <td>${r.dni || '-'}</td>
             <td>${r.nombre || '-'}</td>
             <td>${r.opcion === 'actualizar' ? 'Actualizar tallas' : 'Tallas correctas'}</td>
             <td>${r.comentario || '-'}</td>
